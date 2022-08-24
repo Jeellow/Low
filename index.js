@@ -1,4 +1,4 @@
-const KEY = `ef9f1af2-bac5-11eb-8529-0242ac130003`;
+const KEY = `1464af8c-b45b-4e8e-93f2-ac85f5312cec`;
 const NAMESPACE = "devppratik.github.io";
 const COUNT_URL = `https://api.countapi.xyz`;
 
