@@ -1,5 +1,5 @@
 const KEY = `1464af8c-b45b-4e8e-93f2-ac85f5312cec`;
-const NAMESPACE = "devppratik.github.io";
+const NAMESPACE = "jeellow.github.io";
 const COUNT_URL = `https://api.countapi.xyz`;
 
 const counter = document.querySelectorAll('span');
