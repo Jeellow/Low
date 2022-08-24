@@ -1,4 +1,4 @@
-const KEY = `1464af8c-b45b-4e8e-93f2-ac85f5312cec`;
+const KEY = `d022da54-f5f5-4327-a3b0-c444576a1742`;
 const NAMESPACE = "jeellow.github.io";
 const COUNT_URL = `https://api.countapi.xyz`;
 
