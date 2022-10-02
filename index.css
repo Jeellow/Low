@@ -1,24 +1,299 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker:300,400,600,700);
+
 body {
-  background: #237ccf;
-  color: #fff;
+  background: white;
   font-size: 24px;
-  font-family: Verdana;
+  font-family: Exo;
 }
-span {
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+}
+h1{
+  color: black;
+  font-size: 5rem;
+  margin:auto;
+  font-weight: 700;
+}
+h2{
+  font-size: 3rem;
+  margin:auto;
+  font-weight: bold;
+  margin: 15px 0%;
+}
+h3{
+  font-size: 24px;
+  margin: 0;
+  padding: 10vh 3% 0;
+}
+p{
+  margin: 0;
+}
+i{
+  font-size: 18px;
+  font-family: Permanent Marker;
+}
+
+
+@media(max-width:768px){
+  h1,count{
+    font-size:3rem!important;
+  }
+  #blocktop{
+    display:block!important;
+  }
+  .waves {
+    display:none;
+  }
+  .middle_top{
+    padding: 80px 0!important;
+  }
+  .qp_t {
+    height: 150px;
+    display: flex!important;
+    align-items: center;
+  }
+  .arrow{
+    display:none;
+  }
+  .qp_title{
+    margin: 10% 0 !important;
+  }
+  .middle_top{
+    max-width: 300px;
+  }
+  .qp_flex {
+    display:block;
+  } 
+  .qp_flex .qp_flexc  {
+    flex:none!important; width:100%!important;
+  } 
+  .qp_table.qp_grid TD.qp_col {
+  width:100%!important;
+  }
+  .top_left{
+    grid-auto-rows: 30% 80%!important;
+  } 
+ }
+ 
+span{
+  color:#946e4b;
+  font-weight: bold;
+  padding: 0px 15px;
+}
+count {
   display: inline-block;
   padding: 10px 10px 6px;
-  border-radius: 6px;
-  background: #80b4e5;
+  border-radius: 18px;
+  /**background-image: linear-gradient(33deg,#F78FAD, #FDEB82);**/
+  /**background-image: linear-gradient(33deg,#F0EFF0, #FAF8F9);**/
+  box-shadow: 0 5px 10px #0002;
   margin: 5px 5px;
   font-size: 5rem;
+  font-weight: 400;
+  color:white;
+  /**background: linear-gradient(33deg,#F78FAD, #FDEB82);**/
+  background: darkslategray;
+  /**-webkit-background-clip: text;**/
+  /**-webkit-text-fill-color: transparent;**/
 }
 .counter{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  transform: translateY(-50%);
+    /**flex-wrap: wrap;
+    background: white;
+    display: table;
+    border-radius: 30px;
+    width: 80vw;
+    margin: auto;**/
 }
 .message {
-  color: #ccc6e3;
     text-align: center;
-    margin-top: 10px;
+    margin: 7vh 3% 0;
+    font-weight: 100;
+}
+div[class*="heading"],div[class*="top"],div[class*="intro"]{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  margin: auto;
+}
+.title p{
+  color: white;
+  font-size: calc(30px + (20 - 12) * ((100vw - 300px)/(1600 - 300)))!important;
+  margin:auto;
+  font-weight: bold;
+}
+.bsquestion{
+  display: flex;
+  justify-content: center;
+  align-self: end;
+  color:white;
+}
+.top_left{
+  display:grid!important;
+  grid-auto-rows: 20% 50%;
+}
+.heading_top{
+ background:antiquewhite;
+ /** rgba(214, 111, 0, 0.07)**/
+ border-radius: 0 0 30px 30px;
+}
+.heading_bottom{
+  display:block!important;
+  /**background-color: white;
+  width: 80%;
+  box-shadow: 0 5px 10px #0002;
+  border-radius: 30px 30px 0 0;**/
+}
+#blocktop{
+  display:flex;
+  background-color: darkslategray;
+  border-radius: 30px;
+  width: 95%;
+  margin: auto;
+}
+#blockmiddle{
+  background-color: antiquewhite;
+}
+.middle_top{
+  background-color: white;
+  flex-direction: column;
+  min-height: 25vh!important;
+  padding-bottom: 0;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 2%;
+}
+.middle_bottom{
+  background-color:antiquewhite;;
+}
+.quote{
+  background-color: white;
+  border-radius: 30px;
+  max-width: 50vw;
+  margin: auto;
+  color: black;
+  padding: 50px;
+}
+.quote_mark{
+  position: absolute;
+  transform: scale(6) translate(-5px, -10px);
+}
+.definition{
+  background-color: white;
+  padding: 5% 5%;
+  border-radius: 30px;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  width: calc(300px + ((50 - 1) * ((100vw - 768px)/300)));
+}
+.definition p{
+  width: 70%;
+  margin: auto;
+}
+.section_2{
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(250,235,215,1) 100%);
+  padding-bottom: 15vh
+
+
+}
+.gradient {
+  display: inline-block;
+  height: 250px;
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px #0002;
+}
+.arrow{
+  width: 80px;
+  /*transform: scale(-1, 1) rotate(70deg);*/
+  transform: scale(-1.5, 1.5) rotate(140deg) translate(50px, 50px);
+  position: absolute;
+  
+}
+#waves{
+  background: url(waves.svg);
+}
+.waves {
+  top: 40%;
+  position: absolute;
+  width: 100vw;
+  height:15vh;
+  margin-bottom:-7px; 
+  min-height:100px;
+  max-height:150px;
+}
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+.qp_t:before{
+  display:none!important;
+}
+.qp_container {
+  box-shadow: rgba(57, 73, 76, 0) 0 1px 6px 0!important;
+  background: rgba(255, 255, 255, 0)!important;
+}
+.qp_a {
+  height: calc(300px + (100 - 90) * ((100vw - 300px)/(1600 - 300)))!important;
+  overflow-y: scroll;
+  text-align: justify;
+  /*display:flex!important;*/
+}
+.qp_a:hover {
+  box-shadow: 0 15px 15px rgb(86 86 86 / 15%)!important;
+}
+.qp_a[sel='1']{
+  box-shadow: 0 15px 15px rgb(86 86 86 / 15%)!important;
+}
+.qp_t {
+  padding-left:0!important;
+  font-size: calc(12px + (30 - 12) * ((100vw - 300px)/(1600 - 300)))!important;
+  text-align: center;
+  transform: translate(-50%, -50%);
+    position: absolute!important;
+    top: 50%;
+    left: 50%;
+  /*width: fit-content;
+  margin:auto!important;*/
+}
+.qp_title {
+  width: 100%;
+  text-align: center;
+  font-size: calc(18px + (35 - 18) * ((100vw - 300px)/(1600 - 300)))!important;
+  margin-bottom: 0;
 }

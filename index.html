@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!--RELAX, ce n'était pas la peine d'ouvrir, il n'y a rien de cacherici-->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Unique Visitor Counter</title>
   </head>
   <body>
-    <div class="counter center">
-      <span>0</span>
-      <span>0</span>
-      <span>0</span>
-      <span>0</span>
-      <span>0</span>
-      <span>0</span>
+    <div id="section_1">
+        <div id="blockhead">
+          <div class="heading_top">
+            <div class="title">
+              <h1>LOW MARKETING</h1>
+              <span>Le marketing du bon sens</span>
+            </div>
+          </div>
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+          </svg>
+   
+          <div class="heading_bottom">
+            <div class="counter center">
+              <count>0</count>
+              <count>0</count>
+              <count>0</count>
+              <count>0</count>
+              <count>0</count>
+              <script src="./index.js"></script>
+            </div>
+            <img class="arrow" src="arrow.svg">
+            <div class="message"><b>Là-haut, ce chiffre</b><br>c'est le nombre de personnes qui ont recherché <br>ce terme avant toi</div>
+           </div>
+        </div>     
     </div>
-    <div class="center message">Unique Visits to this Page</div>
-    <script src="./index.js"></script>
+
+    <div class="section_2">
+        <div id="blocktop">
+          <div class="top_left ">
+            <p class="bsquestion">Pourquoi le marketing du bon sens?</p>
+            <div class="title">
+              <p>Le bon sens.<br>C'est faire preuve de lucidité</p>
+            </div>
+          </div>
+          <div class="top_right ">
+            <div class="definition">
+              <p>être conscient de la réalité et de ses limites</p>
+            </div>
+          </div>
+        </div>   
+    </div>
+    <div class="section_3">
+      <div id="blockmiddle">
+        <div class="middle_top">
+          <h2>Le low marketing c'est quoi?</h2>
+          <span>Pour l'instant, il n'y à pas de définition exact.</span>
+        </div>
+        <div class="middle_bottom">
+          <h3>Mais on peut s'en approcher, avec un peu bon sens.</h3>
+          <i>(je te partage ma réflexion juste après...)</i>
+        </div>
+        <a data-quiz="Q09RY70RO" data-type=4 href="https://take.quiz-maker.com/Q09RY70RO">Loading...</a><script>(function(i,s,o,g,r,a,m){var ql=document.querySelectorAll('A[quiz],DIV[quiz],A[data-quiz],DIV[data-quiz]'); if(ql){if(ql.length){for(var k=0;k<ql.length;k++){ql[k].id='quiz-embed-'+k;ql[k].href="javascript:var i=document.getElementById('quiz-embed-"+k+"');try{qz.startQuiz(i)}catch(e){i.start=1;i.style.cursor='wait';i.style.opacity='0.5'};void(0);"}}};i['QP']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://take.quiz-maker.com/3012/CDN/quiz-embed-v1.js','qp');</script>  
+      </div>
   </body>
 </html>
