@@ -1,4 +1,5 @@
 const KEY = `d022da54-f5f5-4327-a3b0-c444576a1742`;
+/*Oui je sais que la clé est visible. Pas de bétises svp*/
 const NAMESPACE = "jeellow.github.io";
 const COUNT_URL = `https://api.countapi.xyz`;
 
