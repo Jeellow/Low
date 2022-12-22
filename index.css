@@ -256,7 +256,8 @@ div[class*="heading"],div[class*="top"],div[class*="intro"]{
   }
 }
 #quiz-results .qp_a{
-height:auto;
+height:auto!important;
+padding:50px;
 }
 #quiz-results .qp_t{
 transform: none;
