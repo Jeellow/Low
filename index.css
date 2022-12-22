@@ -192,7 +192,7 @@ div[class*="heading"],div[class*="top"],div[class*="intro"]{
   width: calc(300px + ((50 - 1) * ((100vw - 768px)/300)));
 }
 .definition p{
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 .section_2{
