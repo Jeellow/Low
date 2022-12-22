@@ -255,6 +255,15 @@ div[class*="heading"],div[class*="top"],div[class*="intro"]{
     transform: translate3d(85px,0,0);
   }
 }
+#quiz-results .qp_a{
+height:auto;
+}
+#quiz-results .qp_t{
+transform: none;
+position: relative!important;
+top: unset;
+left: unset;
+} 
 .qp_t:before{
   display:none!important;
 }
