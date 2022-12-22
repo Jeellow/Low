@@ -78,7 +78,7 @@ i{
   width:100%!important;
   }
   .top_left{
-    grid-auto-rows: 30% 80%!important;
+    grid-auto-rows: unset;
   } 
  }
  
@@ -130,12 +130,6 @@ div[class*="heading"],div[class*="top"],div[class*="intro"]{
   font-size: calc(30px + (20 - 12) * ((100vw - 300px)/(1600 - 300)))!important;
   margin:auto;
   font-weight: bold;
-}
-.bsquestion{
-  display: flex;
-  justify-content: center;
-  align-self: end;
-  color:white;
 }
 .top_left{
   display:grid!important;
