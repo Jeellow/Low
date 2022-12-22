@@ -132,8 +132,8 @@ div[class*="heading"],div[class*="top"],div[class*="intro"]{
   font-weight: bold;
 }
 .top_left{
-  display:grid!important;
-  grid-auto-rows: 20% 50%;
+ /** display:grid!important;
+  grid-auto-rows: 20% 50%;**/
 }
 .heading_top{
  background:antiquewhite;
